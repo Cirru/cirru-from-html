@@ -29,5 +29,4 @@ exports.compile = (dom) ->
     no
   .map readTag
 
-  console.log codeList
   pretty codeList

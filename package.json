@@ -2,7 +2,7 @@
   "name": "cirru-from-html",
   "version": "0.0.1",
   "description": "convert HTML to Cirru grammar",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
     "test": "coffee make.coffee test"
   },
@@ -14,5 +14,17 @@
   },
   "devDependencies": {
     "shelljs": "^0.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Cirru/cirru-from-html.git"
+  },
+  "keywords": [
+    "cirru",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/Cirru/cirru-from-html/issues"
+  },
+  "homepage": "https://github.com/Cirru/cirru-from-html"
 }
