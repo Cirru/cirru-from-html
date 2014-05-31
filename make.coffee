@@ -8,3 +8,7 @@ target.test = ->
 
   compile html, (cirruCode) ->
     cirruCode.to 'cirru/demo.cirru'
+
+target.compile = ->
+  exec 'coffee -o js/ -bc coffee/'
+  console.log 'done: compile'

@@ -7,7 +7,7 @@ div (:class "demo-a demo-b")
   span $ = nothing
   div
     div $ h3 $ = "This page is converted from Cirru"
-    span $ = "see on "
+    span $ = "see on"
     a
       :href https://github.com/Cirru/cirru-html
       = GitHub

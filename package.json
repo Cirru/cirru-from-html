@@ -1,18 +1,18 @@
 {
   "name": "cirru-from-html",
   "version": "0.0.1",
-  "description": "",
+  "description": "convert HTML to Cirru grammar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "coffee make.coffee test"
   },
   "author": "jiyinyiyong",
   "license": "MIT",
   "dependencies": {
+    "cirru-writer": "0.1.0-1",
     "htmlparser": "^1.7.7"
   },
   "devDependencies": {
-    "cirru-writer": "0.1.0-1",
     "shelljs": "^0.3.0"
   }
 }
